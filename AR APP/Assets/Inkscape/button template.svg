@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   sodipodi:docname="button template.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\alexs\Documents\Unity Projects\AR APP\Assets\Imagenes\checkButton.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       inkscape:collect="always"
+       id="button">
+      <stop
+         style="stop-color:#1bfdfd;stop-opacity:1;"
+         offset="0"
+         id="stop3785" />
+      <stop
+         style="stop-color:#7c2ae8;stop-opacity:1"
+         offset="1"
+         id="stop3787" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#button"
+       id="linearGradient3793"
+       gradientUnits="userSpaceOnUse"
+       x1="727.7876"
+       y1="248.84953"
+       x2="1350.7965"
+       y2="874.69025"
+       gradientTransform="translate(11.327431,-2.8318583)" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.49939416"
+     inkscape:cx="629.86145"
+     inkscape:cy="619.4405"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="back"
+     style="display:inline">
+    <ellipse
+       style="fill:url(#linearGradient3793);fill-opacity:1;stroke:none;stroke-width:1.0230062;stroke-opacity:1"
+       id="path2129"
+       cx="971.32745"
+       cy="537.69916"
+       rx="504.0708"
+       ry="505.48672" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="front"
+     style="display:inline">
+    <path
+       style="fill:#000000;stroke-width:3.66605878"
+       d="M 763.10029,757.26679 C 687.46989,656.13263 661.58188,619.0137 664.14065,615.37577 c 1.90591,-2.70972 4.42825,-4.9252 5.60521,-4.92322 1.17696,0.002 38.96725,23.93768 83.97843,53.19049 l 81.8385,53.18694 5.11491,-8.76757 c 2.81319,-4.82216 22.13922,-34.10307 42.94669,-65.06866 109.84164,-163.46578 240.84211,-311.14603 353.32271,-398.30985 46.0387,-35.67654 56.5401,-41.8494 62.108,-36.50819 3.3507,3.21424 -11.2174,22.287 -62.6572,82.03204 -92.7606,107.73726 -153.1381,192.69311 -222.2296,312.69454 -39.39887,68.42974 -89.14082,167.44075 -120.74978,240.35141 -12.1551,28.03755 -23.40363,50.97734 -24.99675,50.97734 -1.59309,0 -48.98776,-61.63391 -105.32148,-136.96425 z"
+       id="path832"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
