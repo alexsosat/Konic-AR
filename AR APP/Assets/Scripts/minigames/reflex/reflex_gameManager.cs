@@ -30,7 +30,7 @@ public class reflex_gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioManager = gameobject.GetComponent<AudioSource>();
+        audioManager = gameObject.GetComponent<AudioSource>();
         setNewSprite();
     }
 
@@ -71,8 +71,8 @@ public class reflex_gameManager : MonoBehaviour
         if (slider.GetComponent<Slider>().value >= 1)
         {
             audioManager.PlayOneShot(winSound);
-            gameArea.setActive(false);
-            winArea.setActive(true);
+            gameArea.SetActive(false);
+            winArea.SetActive(true);
         }
     }
 

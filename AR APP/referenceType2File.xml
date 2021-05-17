@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T12:51:26-06:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8882b502b0c65b24ba4623d6a383815b</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/AccordionElementEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.AccordionElementEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4ef6a0d3c3259384982ae3974fe7e618</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/BezierLineRendererEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BezierLineRendererEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8701e045b26e51f4eb345f2ccb3c13f5</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/BoxSliderEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BoxSliderEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f60a419e63d329f43ba1bf57e98b34bf</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/CanvasGroupActivator.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CanvasGroupActivator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0dc729b738fb01043ac4c04b78575a98</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/ColorPickerPresetsEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorPickerPresetsEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40e01e4fb1e006b46a0f127c8a9907b3</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/CUIBezierCurveEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIBezierCurveEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7b84624f1ba7bd49b6cfc63b25f4b7c</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/CUIGraphicEditor.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIGraphicEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8445204f2ee16e0408274b8400deef53</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/CUIImageEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIImageEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>041976c43b8439747a030b45a4712b77</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/CUITextEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUITextEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ee2802949feca4c4c934331b6a0dc379</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/NonDrawingGraphicEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.NonDrawingGraphicEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac33445ed95315743983e4b657921146</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/RangeSliderEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RangeSliderEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33c90f5149877a242981372f6cde9a35</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/ReadOnlyDrawer.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReadOnlyDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>986fda6476737da458576709b7f59ea3</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/ScrollPositionControllerEditor.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollPositionControllerEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5fe8e67609bbee14d8ad0805aac72799</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/TextPicEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TextPicEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0fdbc2ef7cc4e73418bc4e2d9cb1ad87</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/TextPicIconEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TextPicIconEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2f19005a68a7c044fb9390ab44d42b41</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/TextPicIconListCopier.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TextPicIconListCopier</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6d2906bebe2d6024ba79f17fb908387f</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/TextPicRenameEditor.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TextPicRenameEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b896154a8dbdc524092e78923478d27a</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/uGUITools.cs</fileName>
+    <timeStamp>2020-06-29T11:34:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.uGUITools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3cac6d35505037446b512aea22d40688</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/UIExtensionsMenuOptions.cs</fileName>
+    <timeStamp>2020-09-19T08:09:45-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEditor.UI.ExtensionMenuOptions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e82bfdd42ec254849830933cbaf350fa</guid>
+    <fileName>Assets/com.unity.uiextensions/Editor/FancyScrollView/ScrollerEditor.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollerEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>62e5af56445f0d24fb5140ef754aebaf</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/TabNavigationHelper.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.NavigationMode</string>
+      <string>UnityEngine.UI.Extensions.TabNavigationHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8803d62703eac8a44a3e9884c71009da</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/UIWindowBase.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIWindowBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a3fd655d1aa9c684d88cdfdd0da9aa34</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/BoxSlider.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BoxSlider</string>
+      <string>UnityEngine.UI.Extensions.BoxSlider+Direction</string>
+      <string>UnityEngine.UI.Extensions.BoxSlider+BoxSliderEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74a62d95b3be0fe47871dd48fca58b7d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/CooldownButton.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CooldownButton</string>
+      <string>UnityEngine.UI.Extensions.CooldownButton+CooldownButtonEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a18c7c81729dadf40aee407a0cff0462</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/InputFocus.cs</fileName>
+    <timeStamp>2020-10-14T10:00:17-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.InputFocus</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f2bebd34aaa76541b97e61752a7d262</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/MultiTouchScrollRect.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MultiTouchScrollRect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>803cebee00d5c504e930205383017dc1</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/RadialSlider.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RadialSlider</string>
+      <string>UnityEngine.UI.Extensions.RadialSlider+RadialSliderValueChangedEvent</string>
+      <string>UnityEngine.UI.Extensions.RadialSlider+RadialSliderTextValueChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4735d2b59d5c699488c30a34a6a76e72</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/RangeSlider.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RangeSlider</string>
+      <string>UnityEngine.UI.Extensions.RangeSlider+RangeSliderEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b8ea9937637d64c6da52723c68267703</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Segment.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Segment</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>439b3dcc2b7714c1e91776a9d161f6ee</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/SegmentedControl.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SegmentedControl</string>
+      <string>UnityEngine.UI.Extensions.SegmentedControl+SegmentSelectedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b1867f0d5b751404f86b0e562a3d783b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Stepper.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Stepper</string>
+      <string>UnityEngine.UI.Extensions.Stepper+StepperValueChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dd241e0d4a8de4fc9924c1dce285c587</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/StepperSide.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.StepperSide</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b41c7c4761612e4419bd8a5d44c35a6c</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/TextPic.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TextPic</string>
+      <string>UnityEngine.UI.Extensions.TextPic+IconName</string>
+      <string>UnityEngine.UI.Extensions.TextPic+HrefClickEvent</string>
+      <string>UnityEngine.UI.Extensions.TextPic+HrefInfo</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d41844f60d3b21840a3ce64f958bd235</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/UI_Knob.cs</fileName>
+    <timeStamp>2020-10-21T18:14:01-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UI_Knob</string>
+      <string>UnityEngine.UI.Extensions.UI_Knob+Direction</string>
+      <string>UnityEngine.UI.Extensions.KnobFloatValueEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4387cc9950f37044c92f9d144a2b1002</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Accordion/Accordion.cs</fileName>
+    <timeStamp>2020-09-19T08:09:45-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Accordion</string>
+      <string>UnityEngine.UI.Extensions.Accordion+Transition</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c9d341c4bc7de548937508e6f837144</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Accordion/AccordionElement.cs</fileName>
+    <timeStamp>2020-09-19T08:09:45-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.AccordionElement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e28e1e9e18f7daa4db5d1ac279d6ce66</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Accordion/Tweening/FloatTween.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Tweens.FloatTween</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9edf9da4c14ad2843879a2331b00f738</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Accordion/Tweening/ITweenValue.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Tweens.ITweenValue</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d00ab96853b24074cb837ee70f07dddc</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/Accordion/Tweening/TweenRunner.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Tweens.TweenRunner`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4210a64d2ce72e9488cf2ad174e9df5b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorImage.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorImage</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b32edf53f1ae84f479c9439b4b5f5b91</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorLabel.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorLabel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7e448480810b55843aefa91c1ab74cd2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerControl.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorPickerControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>502205da447ca7a479ce5ae45e5c19d2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerPresets.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorPickerPresets</string>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorPickerPresets+SaveType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>06851a815227e5044b0e3c1bf9b3a282</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerTester.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorPickerTester</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>01c80b26fb6519c4ea3f410dc08f5814</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorSampler.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorSampler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91558da930270ac4a960ba03b81c836a</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorSlider.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorSlider</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd3cce5a27f2db94fa394c4719bddecd</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorSliderImage.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorSliderImage</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0f473590aed5e3f4ab5a0157b2a53dbd</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorValues.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.ColorValues</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7343402602909bd4f928d58433c5c87f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/HexColorField.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.HexColorField</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4f3189246d7fc204faba7a1e9c08e0af</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/HSVUtil.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.HSVUtil</string>
+      <string>UnityEngine.UI.Extensions.ColorPicker.HsvColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a0647785ed421e449239dbd6512e156</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/SVBoxSlider.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ColorPicker.SVBoxSlider</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7be5109ea5b91e4b856621023b15168</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/TiltWindow.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TiltWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff46fbecea7739f4690e4285c88f53c5</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>ColorChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3d95ce8fba3dbbf4eb14411412169b88</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>HSVChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ef22b091ebae52c47aa3e86ad9040c05</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs</fileName>
+    <timeStamp>2020-09-24T16:12:05-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.AutoCompleteSearchType</string>
+      <string>UnityEngine.UI.Extensions.AutoCompleteComboBox</string>
+      <string>UnityEngine.UI.Extensions.AutoCompleteComboBox+SelectionChangedEvent</string>
+      <string>UnityEngine.UI.Extensions.AutoCompleteComboBox+SelectionTextChangedEvent</string>
+      <string>UnityEngine.UI.Extensions.AutoCompleteComboBox+SelectionValidityChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd26acd32e1be2747b9e5f3587b2b1d5</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/ComboBox.cs</fileName>
+    <timeStamp>2020-09-24T16:12:05-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ComboBox</string>
+      <string>UnityEngine.UI.Extensions.ComboBox+SelectionChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a00cad80d8a47b438b394bebe77d0d2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/DropDownList.cs</fileName>
+    <timeStamp>2020-09-24T16:12:05-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.DropDownList</string>
+      <string>UnityEngine.UI.Extensions.DropDownList+SelectionChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>491c635e1f309294187ff24b5c71e8cb</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/DropDownListButton.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.DropDownListButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1dd512d0ed874740902b01df530b2dc</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/DropDownListItem.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.DropDownListItem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6b333d67eb08d464d823874f6a1666c2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ReorderableList/ReorderableList.cs</fileName>
+    <timeStamp>2020-10-14T10:00:17-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReorderableList</string>
+      <string>UnityEngine.UI.Extensions.ReorderableList+ReorderableListEventStruct</string>
+      <string>UnityEngine.UI.Extensions.ReorderableList+ReorderableListHandler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>252dd148b2c1dbe40b7d938a553e3caf</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListContent.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReorderableListContent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86c224aef3e999140b78d1d7135ba33f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListDebug.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReorderableListDebug</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>916e98f1b982a9a4082fcc45c87b66c5</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListElement.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReorderableListElement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c210a6e68020b4349a4020e7da57826e</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RescaleDragPanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff46b67332ade77459ea86ba20638d24</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/RescalingPanels/RescalePanel.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RescalePanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db83442065d59344c9bf6ffa63a23777</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/RescalingPanels/ResizePanel.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ResizePanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d0644987412a04edd8105e64bdd008b2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/SelectionBox/ExampleSelectable.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ExampleSelectable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>72b70b31ccbda4bae8dd5cda36d2e02d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/SelectionBox/IBoxSelectable.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.IBoxSelectable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0f143353fa45b4df79a3722ad82431d5</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Controls/SelectionBox/SelectionBox.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SelectionBox</string>
+      <string>UnityEngine.UI.Extensions.SelectionBox+SelectionEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7b30dd83a12669d4f973ff5a79ca9842</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/BestFitOutline.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BestFitOutline</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c38666cb4d43a304588cf0b7e5f86db6</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurvedText.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CurvedText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0ec526a95e7733b4396be80d3e1df80e</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CylinderText.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CylinderText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0671953a9c649e5438e4d961d1983915</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/Gradient.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Gradient</string>
+      <string>UnityEngine.UI.Extensions.GradientMode</string>
+      <string>UnityEngine.UI.Extensions.GradientDir</string>
+      <string>UnityEngine.UI.Extensions.Gradient2</string>
+      <string>UnityEngine.UI.Extensions.Gradient2+Type</string>
+      <string>UnityEngine.UI.Extensions.Gradient2+Blend</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>45facfdc6a639f041b007c036dc527b8</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/Gradient2.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Gradient2</string>
+      <string>UnityEngine.UI.Extensions.Gradient2+Type</string>
+      <string>UnityEngine.UI.Extensions.Gradient2+Blend</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ee10f5b9a0e16c40b25e079c03a17a2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/LetterSpacing.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.LetterSpacing</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97a58789aa01843488ef44dc747ee8e8</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/MonoSpacing.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MonoSpacing</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db125c7de00668f4e98849d0aaf366d7</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/NicerOutline.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.NicerOutline</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>22757922dd9d4064d8186fbef72b0772</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/RaycastMask.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RaycastMask</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>453baf32313c0bc41a532c409ec25177</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShineEffect.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ShineEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ced63edd65f3aed41a6c4125a5f54217</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShineEffector.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ShineEffector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b8ee60af491978345bc197ed4e1316bc</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/SoftMaskScript.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SoftMaskScript</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67f304b9bd84e9848bcfb79f47790081</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/UIFlippable.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIFlippable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f5f85388e938d9e4599afc6d9441ed57</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/UIParticleSystem.cs</fileName>
+    <timeStamp>2020-10-31T09:49:43-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIParticleSystem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>983a3e151cd916d4faf111dc86266574</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurlyUI/CUIBezierCurve.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIBezierCurve</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e011f2cb554f96547bbfc22e5f001c17</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurlyUI/CUIGraphic.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIGraphic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab7726a352b5004cbf5f8e153868637</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurlyUI/CUIImage.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIImage</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2e82bd2b2afc435438d5d8d7d3459dd0</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurlyUI/CUIMisc.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Vector3_Array2D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>64c40f35eca5d5d4da4eefac2a627005</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurlyUI/CUIText.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CUIText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a29c8587a101744ea9e6198d89cb2df</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIAdditiveEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>022c3983095dce44c9504739a8ed7324</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UIImageCrop.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIImageCrop</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b4fbdc2185cba1c42ad07e43eea19561</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UILinearDodgeEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a1216dfb98544e44afb7fb3abc093f2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIMultiplyEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>07afba72913387d488019cbb35ec1965</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UIScreenEffect.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIScreenEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>692867a1eddc7df419ec15b05b4084ec</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs</fileName>
+    <timeStamp>2020-10-31T06:56:56-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UISoftAdditiveEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6b5e39a5eb1058947a287d21183b661c</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/ContentScrollSnapHorizontal.cs</fileName>
+    <timeStamp>2020-10-23T07:49:17-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal</string>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal+StartMovementEvent</string>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal+CurrentItemChangeEvent</string>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal+FoundItemToSnapToEvent</string>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal+SnappedToItemEvent</string>
+      <string>UnityEngine.UI.Extensions.ContentScrollSnapHorizontal+MoveInfo</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8de815c5a2c592d4da033da3146168c5</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CurvedLayout.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CurvedLayout</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>558b109da67a27b4686138b955f3a7e8</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FlowLayoutGroup.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FlowLayoutGroup</string>
+      <string>UnityEngine.UI.Extensions.FlowLayoutGroup+Axis</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>609dcc22aadcc16418bfac22716ee9a6</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/HorizontalScrollSnap.cs</fileName>
+    <timeStamp>2020-09-28T18:02:46-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.HorizontalScrollSnap</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08ba470d8c8dc384e9d5828136742452</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/IScrollSnap.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.IScrollSnap</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1ebce7906e5d20a4fb26d8b510b81926</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/RadialLayout.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RadialLayout</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cc9ad31350b1b6348b57c626195a562d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/ScrollPositionController.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MovementType</string>
+      <string>UnityEngine.UI.Extensions.ScrollDirection</string>
+      <string>UnityEngine.UI.Extensions.ScrollPositionController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c598b387777d96643991be3f0b6c98c2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/ScrollSnap.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollDirection</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnap</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnap+ScrollDirection</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnap+PageSnapChange</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c2a77c45e5354bf40bbd63bd817dee47</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/ScrollSnapBase.cs</fileName>
+    <timeStamp>2020-10-21T18:14:01-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollSnapBase</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnapBase+SelectionChangeStartEvent</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnapBase+SelectionPageChangedEvent</string>
+      <string>UnityEngine.UI.Extensions.ScrollSnapBase+SelectionChangeEndEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2ec759101f5786b4b89aae8a1b47ca4b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/ScrollSnapScrollbarHelper.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollSnapScrollbarHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6cee1f3bb43ca9c4c9e00b54a998d9ce</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/TableLayoutGroup.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TableLayoutGroup</string>
+      <string>UnityEngine.UI.Extensions.TableLayoutGroup+Corner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>614c629b8dffdb548b9bef9189606bb9</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/TileSizeFitter.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TileSizeFitter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b9f902652954d44beb3a916831d27435</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/UIVerticalScroller.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIVerticalScroller</string>
+      <string>UnityEngine.UI.Extensions.UIVerticalScroller+IntEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e9dccd2761b104249a8eb0636b550188</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/VerticalScrollSnap.cs</fileName>
+    <timeStamp>2020-09-28T18:02:46-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.VerticalScrollSnap</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab9da748840643a3bd4794f6f138979</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardExpanding2D.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CardExpanding2D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a41308ab5f4aa489c9cf797b9152351a</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardPopup2D.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CardPopup2D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c0edb9a3f5da4e129739a8f92a115af</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardStack2D.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CardStack2D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>113e4a3911e6c4f3e8427bd79605739c</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/3D Cards/CardExpanding3D.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CardExpanding3D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c87d7e3a53e4c4bf9ae3657f0dff98b6</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/MeshCreator.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MeshCreator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>df6beaa1c87204b919c209b770d44bc9</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/SuperellipsePoints.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SuperellipsePoints</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac33bc8ebf2744ad6ae91f80f8542546</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/Triangulator.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Triangulator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6610dee308450ec40899aeedfd85e972</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Core/FancyCell.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyCell`2</string>
+      <string>UnityEngine.UI.Extensions.FancyCell`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0e38f4de7b1b5a5429228884014d12ec</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Core/FancyScrollView.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyScrollView`2</string>
+      <string>UnityEngine.UI.Extensions.NullContext</string>
+      <string>UnityEngine.UI.Extensions.FancyScrollView`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d97e25c7748b8d44acd2298e509c8f1</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyCellGroup.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyCellGroup`2</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e806c8d18b1ff45bb87e9a5b87ec85e3</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridView.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyGridView`2</string>
+      <string>UnityEngine.UI.Extensions.FancyGridView`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ab8a59bbf5118824ab084e32342ad86b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridViewCell.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyGridViewCell`2</string>
+      <string>UnityEngine.UI.Extensions.FancyGridViewCell`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>954a17398bfb54ee7baac3d7ab7e822c</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridViewContext.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyGridViewContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1dc086f250206754aa8449e252d50388</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/IFancyCellGroupContext.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.IFancyCellGroupContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3cf2d53d9c81945c28f7c558a7c40ba3</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/GridView/IFancyGridViewContext.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.IFancyGridViewContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3b2a35f9ff1c8487582b74620e380486</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/EasingCore.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.EasingCore.Ease</string>
+      <string>UnityEngine.UI.Extensions.EasingCore.Easing</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>11769de5e972543c7a4132ceff94a5c4</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/MovementDirection.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MovementDirection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>585de8f4f272547c89041f94f2ad92b8</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/MovementType.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MovementType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3392a30c085c642139c92e94ec0d6309</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/ScrollDirection.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollDirection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f0e995f494626a4f878eedbded37c8d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/Scroller.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Scroller</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66c8eb84fdbde4a4a8273b98227a282d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRect.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyScrollRect`2</string>
+      <string>UnityEngine.UI.Extensions.FancyScrollRect`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09f137a55810740eab42e24ef242dcfa</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectCell.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyScrollRectCell`2</string>
+      <string>UnityEngine.UI.Extensions.FancyScrollRectCell`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91383bd46cee541a7a03e08cfaa47c16</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectContext.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.FancyScrollRectContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e425de6354b6946c7a3b9f2c807b60fe</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/IFancyScrollRectContext.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.IFancyScrollRectContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9653e8a2f35df4e42b53f383913554af</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/MenuSystem/Menu.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Menu`1</string>
+      <string>UnityEngine.UI.Extensions.Menu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>adf0efbc9d5b148979111e50bec1893f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/MenuSystem/MenuManager.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.MenuManager</string>
+      <string>UnityEngine.UI.Extensions.MenuExtensions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2fdf3dae987a8d44fa2e065bc4edaf3a</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/MenuSystem/SimpleMenu.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SimpleMenu`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>891530df3841c0041ab9982359e02e0f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/DiamondGraph.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.DiamondGraph</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8185cad1aa202d04ebb9e14ffa533a87</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UICircle.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UICircle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a6e620ffa5a4e64b8875761130d0139</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UICornerCut.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UICornerCut</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>35ff6e8800018654d9558db07c4cd080</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UIGridRenderer.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIGridRenderer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5b33b2e663e78774c9f0c9af55018725</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UILineRenderer.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UILineRenderer</string>
+      <string>UnityEngine.UI.Extensions.UILineRenderer+JoinType</string>
+      <string>UnityEngine.UI.Extensions.UILineRenderer+BezierType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>34861a5dcec3dbf438f8288be97dd133</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UILineRendererList.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UILineRendererList</string>
+      <string>UnityEngine.UI.Extensions.UILineRendererList+JoinType</string>
+      <string>UnityEngine.UI.Extensions.UILineRendererList+BezierType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b801876ddb189f94f905cd1646564fbf</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UILineTextureRenderer.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UILineTextureRenderer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fcd1b8078a416f844b695454a4358409</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UIPolygon.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIPolygon</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>65af11d29c6cb8c45b3d78d97d98440d</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UIPrimitiveBase.cs</fileName>
+    <timeStamp>2020-09-19T08:09:45-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ResolutionMode</string>
+      <string>UnityEngine.UI.Extensions.UIPrimitiveBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d7948ca2f24604c4aa5340622512a976</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Primitives/UISquircle.cs</fileName>
+    <timeStamp>2020-08-27T11:51:59-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UISquircle</string>
+      <string>UnityEngine.UI.Extensions.UISquircle+Type</string>
+      <string>UnityEngine.UI.Extensions.UISquircle+UISquircleEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>87cd933870c6506418344281b3cb86fc</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/ToolTips/HoverTooltip.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.HoverTooltip</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a649d0fc284fb7458094a7a02315f07</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/ToolTips/ToolTip.cs</fileName>
+    <timeStamp>2020-10-26T17:54:13-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ToolTip</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>abe02588cca16964c8571b21eefea5d6</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/ToolTips/TooltipTrigger.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.TooltipTrigger</string>
+      <string>UnityEngine.UI.Extensions.TooltipTrigger+TooltipPositioningType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2d6f5ec6d595a31459e6942110d86aaa</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BoundTooltipItem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4d7c934af453a9469701b72267593ec</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BoundTooltipTrigger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89b61e0416e1256469165fca78d5ed21</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/BezierPath.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.BezierPath</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2444f085ab49ff24b888b175f46b55c7</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/CableCurve.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CableCurve</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f11f61a6960d26445a760da7dae63cf2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/Circle.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.Circle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f69e6f88ce470d742adfcbaf0bcbd001</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/CLZF2.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.CLZF2</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>af1c809ef037025409983d19f9b0baac</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/DragCorrector.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.DragCorrector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc733ccacdce62148ac1f46d1dd84ff6</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ExtensionsToggle.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.ExtensionsToggle</string>
+      <string>UnityEngine.UI.ExtensionsToggle+ToggleTransition</string>
+      <string>UnityEngine.UI.ExtensionsToggle+ToggleEvent</string>
+      <string>UnityEngine.UI.ExtensionsToggle+ToggleEventObject</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf31acdd4bba9fc45b8a5cc6de985aee</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ExtensionsToggleGroup.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.ExtensionsToggleGroup</string>
+      <string>UnityEngine.UI.ExtensionsToggleGroup+ToggleGroupEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed85e09a894358f4782be8df50a1221a</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ExtentionMethods.cs</fileName>
+    <timeStamp>2020-10-22T10:54:30-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ExtentionMethods</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bfc77d7b04a86f845b59fb0979e8ec53</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/InputFieldEnterSubmit.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.InputFieldEnterSubmit</string>
+      <string>UnityEngine.UI.Extensions.InputFieldEnterSubmit+EnterSubmitEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>51db53697a53f7a479b8570674dae649</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/NonDrawingGraphic.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.NonDrawingGraphic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7cff19ba98ef11d4ebf2e8cbeb6a4342</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/PaginationManager.cs</fileName>
+    <timeStamp>2020-09-28T18:02:46-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.PaginationManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0f2698294b9b524bb75cb394378eb6e</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/PPIViewer.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.PPIViewer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>244394c76ae0d484d83567b74f4332cd</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ReadOnlyAttribute.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ReadOnlyAttribute</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f08f1bd2c562a474c99ff9d746d3c99b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ReturnKeyTriggersButton.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.ReturnKeyTriggersButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cee880d45d4659540ada44c73f95a947</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ScrollConflictManager.cs</fileName>
+    <timeStamp>2020-10-21T20:04:53-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollConflictManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a7b69ea2282ad240824a4bce7a65a46</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ScrollRectEx.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollRectEx</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9abaa5d90896b4d4a937574b6b3878ab</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ScrollRectExtensions.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollRectExtensions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4f1f9a7e297738d47b8c6286a737406f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ScrollRectLinker.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollRectLinker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37838caa3fcff7f46a5e1418b35173c2</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ScrollRectTweener.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ScrollRectTweener</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>65fce2c84ce1eff4383c094d715a7e1b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/SelectableScaler.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SelectableScaler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d373cce4b1f361a40a126bd74d26ebc9</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/SetPropertyUtility.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.SetPropertyUtility</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3d4dc4c08600582419712a4f2370c81b</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ShaderLibrary.cs</fileName>
+    <timeStamp>2020-10-31T10:50:11-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.ShaderLibrary</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>977482c1b88728145ba612c0fdec3b92</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/switchToRectTransform.cs</fileName>
+    <timeStamp>2020-10-26T19:15:55-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.RectTransformExtension</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>585e75d4a56389b4690b3506f37751bc</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/TestCompression.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>TestCompression</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08fd87e2db0639a4caf7a053f227a470</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UIExtensionMethods.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIExtensionMethods</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>de7e73fc10fb95143a19dbc76c2595a7</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UIExtensionsInputManager.cs</fileName>
+    <timeStamp>2020-10-31T09:45:57-06:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIExtensionsInputManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d51a356e057c54d48abe97aa2cee2291</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UIHighlightable.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIHighlightable</string>
+      <string>UnityEngine.UI.Extensions.UIHighlightable+InteractableChangedEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8b52ee3a4491f3742bb35fa3eec798d3</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UILineConnector.cs</fileName>
+    <timeStamp>2020-07-09T05:57:03-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UILineConnector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b35bd2ce6e015bb4f840cf9267dbe421</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UIScrollToSelection.cs</fileName>
+    <timeStamp>2020-10-14T10:00:18-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIScrollToSelection</string>
+      <string>UnityEngine.UI.Extensions.UIScrollToSelection+ScrollType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6580683838fcc12479150dd5e76e6b2e</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UIScrollToSelectionXY.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UIScrollToSelectionXY</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6bb501adc62c7394fae41ae7a6032eb3</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UISelectableExtension.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UISelectableExtension</string>
+      <string>UnityEngine.UI.Extensions.UISelectableExtension+UIButtonEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>61fe0f6272fa94d4eb3dafc6aecd50ff</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs</fileName>
+    <timeStamp>2020-10-21T18:14:01-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UI_InfiniteScroll</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a2ddc0989b894a499a02fb975aa0322</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UI_MagneticInfiniteScroll.cs</fileName>
+    <timeStamp>2020-10-21T18:14:01-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UI_MagneticInfiniteScroll</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f1bb7fb3155d62546a876bd63cdcd81f</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UI_ScrollRectOcclusion.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UI_ScrollRectOcclusion</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>61bf9d6fa29ed164e8a1df46e0d40835</guid>
+    <fileName>Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UI_TweenScale.cs</fileName>
+    <timeStamp>2020-07-09T07:52:14-05:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.UI.Extensions.UI_TweenScale</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3bbef22eb814a9647b6c1f03e99d95da</guid>
+    <fileName>Assets/Editor/Migration/AddVuforiaEnginePackage.cs</fileName>
+    <timeStamp>2020-01-30T19:02:00-06:00</timeStamp>
+    <typeFullName>
+      <string>AddVuforiaEnginePackage</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18dbf1393b026d842b87a9b5cad94260</guid>
+    <fileName>Assets/Lean/Common/Examples/Scripts/LeanCircuit.cs</fileName>
+    <timeStamp>2020-02-20T18:42:04-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Common.Examples.LeanCircuit_Inspector</string>
+      <string>Lean.Common.Examples.LeanCircuit</string>
+      <string>Lean.Common.Examples.LeanCircuit+Path</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>65f14352023e7024bbd09d26a3e8379e</guid>
+    <fileName>Assets/Lean/Common/Examples/Scripts/LeanDocumentation.cs</fileName>
+    <timeStamp>2020-02-20T18:42:04-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Common.Examples.LeanDocumentation_Inspector</string>
+      <string>Lean.Common.Examples.LeanDocumentation</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ae8f233b40abd2c4f9deab4ffe64baad</guid>
+    <fileName>Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs</fileName>
+    <timeStamp>2020-02-20T18:42:04-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Common.Examples.LeanLinkTo</string>
+      <string>Lean.Common.Examples.LeanLinkTo+LinkType</string>
+      <string>Lean.Common.Examples.LeanLinkTo_Editor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74ff7c06330793042a1bb0a7fc0accb5</guid>
+    <fileName>Assets/Lean/Common/Scripts/LeanHelper.cs</fileName>
+    <timeStamp>2020-02-20T18:42:06-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Common.LeanHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c51842c9aba23b548a212740fe66b48c</guid>
+    <fileName>Assets/Lean/Common/Scripts/LeanInspector.cs</fileName>
+    <timeStamp>2020-02-20T18:42:06-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Common.LeanInspector`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>683e90f239f8a2b42b3533e9316fd5f3</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanDestroy.cs</fileName>
+    <timeStamp>2020-02-20T18:42:08-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanDestroy</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e278200a08f9b9f419a13f87e9559ab1</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanDragCamera.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanDragCamera</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f03abde3ceb8184da632ff83c420768</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanDragTrail.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanDragTrail</string>
+      <string>Lean.Touch.LeanDragTrail+FingerData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4eda371e5375f454490a86f21559ee38</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanDragTranslate.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanDragTranslate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ccb7719577ee2df4f9d57e4689532994</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerData.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bbb097c07812299498915a0a3e793843</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerDown.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerDown</string>
+      <string>Lean.Touch.LeanFingerDown+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanFingerDown+Vector3Event</string>
+      <string>Lean.Touch.LeanFingerDown_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>471246cd6f1851e4eac17e12e5bf7fec</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerFilter.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerFilter</string>
+      <string>Lean.Touch.LeanFingerFilter_Drawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9d71b10bcefcfe047b9ea4c92a92379d</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerOld.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerOld</string>
+      <string>Lean.Touch.LeanFingerOld+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanFingerOld+Vector3Event</string>
+      <string>Lean.Touch.LeanFingerOld_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5ca05b4057f181e4db28ff62498d46b1</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerSet.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerSet</string>
+      <string>Lean.Touch.LeanFingerSet+CoordinateType</string>
+      <string>Lean.Touch.LeanFingerSet+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanFingerSet+FloatEvent</string>
+      <string>Lean.Touch.LeanFingerSet+Vector2Event</string>
+      <string>Lean.Touch.LeanFingerSet+Vector3Event</string>
+      <string>Lean.Touch.LeanFingerSet+Vector3Vector3Event</string>
+      <string>Lean.Touch.LeanFingerSet_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a2b29544581cbff48a74923442363fb0</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerSwipe.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerSwipe</string>
+      <string>Lean.Touch.LeanFingerSwipe_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f7c1c71d8ad5da9438de3b2e5990763f</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerTap.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerTap</string>
+      <string>Lean.Touch.LeanFingerTap+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanFingerTap+Vector3Event</string>
+      <string>Lean.Touch.LeanFingerTap_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>571b065edc65a4f41b4ea02b27b6113a</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanFingerUp.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFingerUp</string>
+      <string>Lean.Touch.LeanFingerUp+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanFingerUp+Vector3Event</string>
+      <string>Lean.Touch.LeanFingerUp_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7efa857135ee3242bb57cd8a91087c8</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanInfoText.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanInfoText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f3b515ca1c988ce43853bd6120e9b94b</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanPath.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanPath</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7c73c1ab94e28d244827af556dca1ed2</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanPinchScale.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanPinchScale</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e167f5141e8fbbb429990fdd6dca01c5</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanPlane.cs</fileName>
+    <timeStamp>2020-02-20T18:42:10-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanPlane</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d2cf6a4604a9b1c488ead15354d556b3</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanPulseScale.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanPulseScale</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>44eecfd2f8136f94caff1a3e1238c023</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanRoll.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanRoll</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b2ff10facb46e046abcee4e29a6c13f</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanScreenDepth.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanScreenDepth</string>
+      <string>Lean.Touch.LeanScreenDepth_Drawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>479d695282ba6cf4ba3ab3c4848f05e8</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelect.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelect</string>
+      <string>Lean.Touch.LeanSelect+SelectType</string>
+      <string>Lean.Touch.LeanSelect+SearchType</string>
+      <string>Lean.Touch.LeanSelect+ReselectType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83dcd8dace8b7fe449d796b980cb121d</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelectable.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelectable</string>
+      <string>Lean.Touch.LeanSelectable+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanSelectable_Inspector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e79fdb2e0edc7c244ae6ee18c7f7cba7</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelectableBehaviour.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelectableBehaviour</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0e3837cd44482a8459c76be5c56a41d3</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelectableGraphicColor.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelectableGraphicColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2baa936f016a9a14e86ac8ea42211f4a</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelectableRendererColor.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelectableRendererColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a45146ec471801c4dbce44f8dd62608f</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSelectableSpriteRendererColor.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSelectableSpriteRendererColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3bb775feca211c748b48cd3f9b59a4cf</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSpawn.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSpawn</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6570a4c74d8dbf43b0d2152e0313001</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanSwipeBase.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSwipeBase</string>
+      <string>Lean.Touch.LeanSwipeBase+ModifyType</string>
+      <string>Lean.Touch.LeanSwipeBase+CoordinateType</string>
+      <string>Lean.Touch.LeanSwipeBase+LeanFingerEvent</string>
+      <string>Lean.Touch.LeanSwipeBase+FloatEvent</string>
+      <string>Lean.Touch.LeanSwipeBase+Vector2Event</string>
+      <string>Lean.Touch.LeanSwipeBase+Vector3Event</string>
+      <string>Lean.Touch.LeanSwipeBase+Vector3Vector3Event</string>
+      <string>Lean.Touch.LeanSwipeBase_Inspector`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e801af14bb6ff642a16a53be53348be</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanTouchEvents</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52d72cc6210cb7144a24acb7402222a6</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanTwistRotate.cs</fileName>
+    <timeStamp>2021-03-30T18:42:08.2826021-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanTwistRotate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dc7c91b26689a054d88448aba6dfe424</guid>
+    <fileName>Assets/Lean/Touch/Examples/Scripts/LeanTwistRotateAxis.cs</fileName>
+    <timeStamp>2020-02-20T18:42:12-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanTwistRotateAxis</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0991e6d1946d343449afb6600057d2f4</guid>
+    <fileName>Assets/Lean/Touch/Scripts/LeanFinger.cs</fileName>
+    <timeStamp>2020-02-20T18:42:20-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanFinger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>da8a88708d8e3f349920ae0d6cc7e3c1</guid>
+    <fileName>Assets/Lean/Touch/Scripts/LeanGesture.cs</fileName>
+    <timeStamp>2020-02-20T18:42:20-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanGesture</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fef9e03c4eb1f4f44894223de421c1b3</guid>
+    <fileName>Assets/Lean/Touch/Scripts/LeanSnapshot.cs</fileName>
+    <timeStamp>2020-02-20T18:42:20-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanSnapshot</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fc98219a83dff145947365dc914d06e</guid>
+    <fileName>Assets/Lean/Touch/Scripts/LeanTouch.cs</fileName>
+    <timeStamp>2020-02-20T18:42:20-06:00</timeStamp>
+    <typeFullName>
+      <string>Lean.Touch.LeanTouch</string>
+      <string>Lean.Touch.LeanTouch_Editor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7eefb0d7aec41df4f8513effa0b5e54c</guid>
+    <fileName>Assets/Scripts/AR/EllipseLine.cs</fileName>
+    <timeStamp>2020-04-22T08:39:34-05:00</timeStamp>
+    <typeFullName>
+      <string>EllipseLine</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3615a777ee8cb0c4d8b55aa82bfec9a9</guid>
+    <fileName>Assets/Scripts/AR/EllipseOrbit.cs</fileName>
+    <timeStamp>2020-04-22T08:39:34-05:00</timeStamp>
+    <typeFullName>
+      <string>EllipseOrbit</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a97b52af3c0c024197da20b38f072f1</guid>
+    <fileName>Assets/Scripts/AR/Fractions.cs</fileName>
+    <timeStamp>2021-03-16T18:06:42-06:00</timeStamp>
+    <typeFullName>
+      <string>Fraction</string>
+      <string>FractionException</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>696cdf2a759229449a365d90639b3c5e</guid>
+    <fileName>Assets/Scripts/AR/modelController.cs</fileName>
+    <timeStamp>2020-03-12T17:59:12-06:00</timeStamp>
+    <typeFullName>
+      <string>modelController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7c0d21643fce0a40a20982e182942c9</guid>
+    <fileName>Assets/Scripts/AR/modelControlle_Alex.cs</fileName>
+    <timeStamp>2021-05-17T16:54:24.0452111-05:00</timeStamp>
+    <typeFullName>
+      <string>modelControlle_Alex</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a661e8b27891a340a9a2102a1bcac7a</guid>
+    <fileName>Assets/Scripts/AR/MovLinea.cs</fileName>
+    <timeStamp>2021-01-22T13:55:28-06:00</timeStamp>
+    <typeFullName>
+      <string>MovLinea</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3fcef385a3a188b4c80f82be9f031457</guid>
+    <fileName>Assets/Scripts/AR/Orbit.cs</fileName>
+    <timeStamp>2021-05-17T16:55:05.2482891-05:00</timeStamp>
+    <typeFullName>
+      <string>Orbit</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>519e4a0599a18684ab7ea58119f3d6c6</guid>
+    <fileName>Assets/Scripts/AR/planeController.cs</fileName>
+    <timeStamp>2020-03-12T17:59:12-06:00</timeStamp>
+    <typeFullName>
+      <string>planeController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>161dab67d725b6c4aacea4146a44efa7</guid>
+    <fileName>Assets/Scripts/AR/planeMovement.cs</fileName>
+    <timeStamp>2020-02-20T18:42:20-06:00</timeStamp>
+    <typeFullName>
+      <string>planeMovement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d000065ade62a5498f45dbb4497eeb1</guid>
+    <fileName>Assets/Scripts/Levels/LevelManager.cs</fileName>
+    <timeStamp>2019-12-02T09:11:00-06:00</timeStamp>
+    <typeFullName>
+      <string>LevelManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8e51497696dc3fe45b58df3112da5241</guid>
+    <fileName>Assets/Scripts/Levels/LevelSelect.cs</fileName>
+    <timeStamp>2021-04-06T15:41:49.8388106-05:00</timeStamp>
+    <typeFullName>
+      <string>LevelSelect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>386534aabad54d14b84061973e00a11e</guid>
+    <fileName>Assets/Scripts/minigames/Drag_and_Drop/drag.cs</fileName>
+    <timeStamp>2021-03-18T18:49:52-06:00</timeStamp>
+    <typeFullName>
+      <string>drag</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4bdeaa037e799ef47ba27a89297da855</guid>
+    <fileName>Assets/Scripts/minigames/Drag_and_Drop/drag_game_manager.cs</fileName>
+    <timeStamp>2021-04-06T15:47:24.9927432-05:00</timeStamp>
+    <typeFullName>
+      <string>drag_game_manager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f528a7e924715645ab1db7e5e55c50a</guid>
+    <fileName>Assets/Scripts/minigames/memorama/addButtons.cs</fileName>
+    <timeStamp>2021-02-24T18:41:44-06:00</timeStamp>
+    <typeFullName>
+      <string>addButtons</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6f4b40f5e8d41d4d971054b96aa5afd</guid>
+    <fileName>Assets/Scripts/minigames/memorama/GameController.cs</fileName>
+    <timeStamp>2021-03-31T18:59:07.2441112-06:00</timeStamp>
+    <typeFullName>
+      <string>GameController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33b40e9ebe776ba44a4c29583dcd9532</guid>
+    <fileName>Assets/Scripts/minigames/memorama/simpleCountDown.cs</fileName>
+    <timeStamp>2021-03-31T19:00:14.329372-06:00</timeStamp>
+    <typeFullName>
+      <string>simpleCountDown</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e447691821d032a4aada4222b3306650</guid>
+    <fileName>Assets/Scripts/minigames/questions/players_photos.cs</fileName>
+    <timeStamp>2021-04-07T18:31:21.0881635-05:00</timeStamp>
+    <typeFullName>
+      <string>players_photos</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d0a9fdcbfb937fe4cb82ad1e70950779</guid>
+    <fileName>Assets/Scripts/minigames/reflex/FallingCard.cs</fileName>
+    <timeStamp>2021-04-27T18:03:35.1765918-05:00</timeStamp>
+    <typeFullName>
+      <string>FallingCard</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67661f993059a9f48b6ed6e63cc75ce5</guid>
+    <fileName>Assets/Scripts/minigames/reflex/reflex_gameManager.cs</fileName>
+    <timeStamp>2021-05-17T16:50:34.9143934-05:00</timeStamp>
+    <typeFullName>
+      <string>reflex_gameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0de4c3ef25f3ac4eae8d6f68bf08224</guid>
+    <fileName>Assets/Scripts/minigames/reflex/vscode.cs</fileName>
+    <timeStamp>2021-04-29T11:33:04.4242129-05:00</timeStamp>
+    <typeFullName>
+      <string>vscode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cb096e5b9192a944ea1cfee1fd1eab25</guid>
+    <fileName>Assets/Scripts/Options/Actions.cs</fileName>
+    <timeStamp>2021-04-13T17:14:47.5901261-05:00</timeStamp>
+    <typeFullName>
+      <string>Actions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d865e90b590226d4f805d5496b0c3cd6</guid>
+    <fileName>Assets/Scripts/Options/BackgroundMusic.cs</fileName>
+    <timeStamp>2021-02-10T18:54:38-06:00</timeStamp>
+    <typeFullName>
+      <string>BackgroundMusic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f4ee735a26e68e549a2e0e79e9aca839</guid>
+    <fileName>Assets/Scripts/Options/BackgroundToggler.cs</fileName>
+    <timeStamp>2021-02-12T11:58:02-06:00</timeStamp>
+    <typeFullName>
+      <string>BackgroundToggler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a1625d25374f5d4c95cd5b58c803f2b</guid>
+    <fileName>Assets/Scripts/Options/MenuSetScene.cs</fileName>
+    <timeStamp>2021-02-10T18:56:08-06:00</timeStamp>
+    <typeFullName>
+      <string>MenuSetScene</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8d464fe9c7fea1c4d845bec30dbd0a9c</guid>
+    <fileName>Assets/Scripts/Options/Restart.cs</fileName>
+    <timeStamp>2021-03-09T18:37:02-06:00</timeStamp>
+    <typeFullName>
+      <string>Restart</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4e3c2cdc2e4bffe45952fd8b63e9716a</guid>
+    <fileName>Assets/Scripts/QuestionGame/Countdown.cs</fileName>
+    <timeStamp>2021-04-07T18:43:38.577467-05:00</timeStamp>
+    <typeFullName>
+      <string>Countdown</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a8e43a8e1ac8e64dbbf46bead0b1691</guid>
+    <fileName>Assets/Scripts/QuestionGame/Game_sounds.cs</fileName>
+    <timeStamp>2019-12-02T09:16:54-06:00</timeStamp>
+    <typeFullName>
+      <string>Game_sounds</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d895459518c9fc240a8b88b3a2f47029</guid>
+    <fileName>Assets/Scripts/QuestionGame/Manager.cs</fileName>
+    <timeStamp>2021-04-08T18:40:23.4981717-05:00</timeStamp>
+    <typeFullName>
+      <string>Manager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c949f2771425bf84d8666d4fefcb46e4</guid>
+    <fileName>Assets/Scripts/QuestionGame/ProgressBar.cs</fileName>
+    <timeStamp>2021-04-28T18:54:30.0375446-05:00</timeStamp>
+    <typeFullName>
+      <string>ProgressBar</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4c9b7b251892b54c841571f70457d12</guid>
+    <fileName>Assets/Scripts/QuestionGame/Question.cs</fileName>
+    <timeStamp>2019-12-02T09:34:16-06:00</timeStamp>
+    <typeFullName>
+      <string>Question</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>94c62beffc0029c45a39f0ee6b04a4fe</guid>
+    <fileName>Assets/Scripts/QuestionGame/SceneMovement.cs</fileName>
+    <timeStamp>2021-04-08T18:55:17.4366958-05:00</timeStamp>
+    <typeFullName>
+      <string>SceneMovement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>

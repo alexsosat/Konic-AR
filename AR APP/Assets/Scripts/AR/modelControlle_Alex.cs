@@ -28,7 +28,6 @@ public class modelControlle_Alex : MonoBehaviour
     public Toggle[] ellipseOptions;
 
     private int state = 0;
-    private int count = 1;
     public SpriteRenderer ellipseFormulaImage;
     public Sprite[] ellipseFormulaOptions;
 

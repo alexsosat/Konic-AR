@@ -8,7 +8,6 @@ public class Orbit : MonoBehaviour
     public bool increase;
 
     public float resizeAmount;
-    private float vuelta = 1;
 
 
 
