@@ -18,11 +18,7 @@ public class modelControlle_Alex : MonoBehaviour
     public Button[] buttons;
     public Slider[] sliders;
     public TextMeshPro[] sliderZValue;
-    //public Slider z;
     public GameObject[] initial_planes;
-    public GameObject[] ellipse_planes;
-    // public GameObject[] parabola_planes;
-    // public GameObject[] hiperbola_planes;
     public GameObject[] UI;
     public GameObject[] texts;
     public Toggle[] ellipseOptions;
@@ -50,9 +46,7 @@ public class modelControlle_Alex : MonoBehaviour
             int closureIndex = i; // Prevents the closure problem
             buttons[closureIndex].onClick.AddListener(() => TaskOnClick(closureIndex));
         }
-        //buttons[2].interactable = false;
-        //buttons[3].interactable = false;
-        //animEllipse = GetComponent<Toggle>();
+        
         //Add listener for when the state of the Toggle changes, to take action
         animEllipse.onValueChanged.AddListener(delegate  { ToggleValueChanged(animEllipse);  });
         animEllipse.interactable = false;
@@ -89,17 +83,8 @@ public class modelControlle_Alex : MonoBehaviour
     public void TaskOnClick(int buttonIndex){
         Debug.Log(buttonIndex);
         foreach (GameObject plane in initial_planes){
-            plane.active = false;
+            plane.SetActive(false);
         }
-        foreach (GameObject plane in ellipse_planes){
-            plane.active = false;
-        }
-        // foreach(GameObject plane in parabola_planes){
-        //     plane.active = false;
-        // }
-        // foreach(GameObject plane in hiperbola_planes){
-        //     plane.active = false;
-        // }
 
         foreach (GameObject util in UI){
             util.SetActive(false);
@@ -171,7 +156,6 @@ public class modelControlle_Alex : MonoBehaviour
         double val = Math.Round(sliders[2].value * 20) / 20;
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)val * 45));
         initial_planes[state].GetComponent<Transform>().localRotation = rotation;
-        ellipse_planes[0].GetComponent<Transform>().localPosition = new Vector3(0, sliders[1].value, 0);
             
         //}//else if (ellipseOptions[1].isOn)//{//    animEllipse.interactable = true;//    ellipseFormulaImage.sprite = ellipseFormulaOptions[1];//    sliders[1].maxValue = 0.6943489f;//    ellipse_planes[1].GetComponent<Transform>().localPosition = new Vector3(sliders[1].value / 3, sliders[1].value, 0);//    sliderZValue[1].text = System.Math.Pow(sliders[1].value * 5, 2).ToString("0.0");//    sliderZValue[2].text = (sliders[1].value * 5 * 2).ToString("0.0");//}
         //else if (ellipseOptions[2].isOn)//{//    ellipseFormulaImage.sprite = ellipseFormulaOptions[2];//    sliders[1].maxValue = 0.3156974f;//    ellipse_planes[2].GetComponent<Transform>().localPosition = new Vector3(sliders[1].value * 1.5f, sliders[1].value, 0);//    sliderZValue[1].text = System.Math.Pow(sliders[1].value * 5, 2).ToString("0.0");//    sliderZValue[2].text = (sliders[1].value * 5 * 8).ToString("0.0");//}
