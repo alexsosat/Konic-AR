@@ -21,35 +21,22 @@ public class modelControlle_Alex : MonoBehaviour
     public GameObject[] initial_planes;
     public GameObject[] UI;
     public GameObject[] texts;
-    public Toggle[] ellipseOptions;
 
     private int state = 0;
-    public SpriteRenderer ellipseFormulaImage;
-    public Sprite[] ellipseFormulaOptions;
-
-    public Toggle animEllipse;
-    public GameObject conic, ellipse;
-    public Image img;
-
-
-
+   
 
     void Start()
     {
         
-        img.gameObject.SetActive(false);
+       
         TextMeshPro t = (TextMeshPro)gameObject.GetComponent(typeof(TextMeshPro));
         
         for (int i = 0; i < buttons.Length; i++)
         {
-            // Debug.Log(buttons[i]);
             int closureIndex = i; // Prevents the closure problem
             buttons[closureIndex].onClick.AddListener(() => TaskOnClick(closureIndex));
         }
-        
-        //Add listener for when the state of the Toggle changes, to take action
-        animEllipse.onValueChanged.AddListener(delegate  { ToggleValueChanged(animEllipse);  });
-        animEllipse.interactable = false;
+
     }
     // Update is called once per frame
     void Update(){
@@ -63,22 +50,7 @@ public class modelControlle_Alex : MonoBehaviour
             Hiperbola();
         }
     }
-    void ToggleValueChanged(Toggle change){
-            if (change.isOn == true){                
-                UI[1].SetActive(false);
-                UI[2].SetActive(false);
-                UI[3].SetActive(false);
-                for (int i = 0; i < buttons.Length; i++){
-                    buttons[i].interactable = false;
-                }
-                 ellipse.SetActive(true);
-                 img.gameObject.SetActive(true);
-                 conic.SetActive(false);
-            }
-            else if (change.isOn == false){
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
-    }
+
 
     public void TaskOnClick(int buttonIndex){
         Debug.Log(buttonIndex);
@@ -138,7 +110,6 @@ public class modelControlle_Alex : MonoBehaviour
     }
     public void Ellipse()
     {
-        //animEllipse.interactable = true;//if (ellipseOptions[0].isOn)//{//ellipseFormulaImage.sprite = ellipseFormulaOptions[0];//sliders[1].maxValue = 0.5637287f;
         
         //(1 − 𝑚²)𝑥² + 2𝑘𝑚𝑥 + 𝑦² − 𝑘² = 0
         double k = sliders[1].value;
@@ -156,21 +127,18 @@ public class modelControlle_Alex : MonoBehaviour
         double val = Math.Round(sliders[2].value * 20) / 20;
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)val * 45));
         initial_planes[state].GetComponent<Transform>().localRotation = rotation;
-            
-        //}//else if (ellipseOptions[1].isOn)//{//    animEllipse.interactable = true;//    ellipseFormulaImage.sprite = ellipseFormulaOptions[1];//    sliders[1].maxValue = 0.6943489f;//    ellipse_planes[1].GetComponent<Transform>().localPosition = new Vector3(sliders[1].value / 3, sliders[1].value, 0);//    sliderZValue[1].text = System.Math.Pow(sliders[1].value * 5, 2).ToString("0.0");//    sliderZValue[2].text = (sliders[1].value * 5 * 2).ToString("0.0");//}
-        //else if (ellipseOptions[2].isOn)//{//    ellipseFormulaImage.sprite = ellipseFormulaOptions[2];//    sliders[1].maxValue = 0.3156974f;//    ellipse_planes[2].GetComponent<Transform>().localPosition = new Vector3(sliders[1].value * 1.5f, sliders[1].value, 0);//    sliderZValue[1].text = System.Math.Pow(sliders[1].value * 5, 2).ToString("0.0");//    sliderZValue[2].text = (sliders[1].value * 5 * 8).ToString("0.0");//}
+        initial_planes[state].GetComponent<Transform>().localPosition = new Vector3(0, sliders[1].value, 0);
+
     }
 
     public void Parabola (){
         //y² = -2k ( x - k/2)
         double k = sliders[3].value;
 
-        //sliderZValue[9].text = new Fraction(Math.Round(-2*k, 4));//.ToString("0.0");      //-2k
-        //sliderZValue[5].text = new Fraction(Math.Round(k / 2,4));//.ToString("0.00");       //k/2
+        
 
         sliderZValue[9].text = (-2*k).ToString("0.0000");               //-2k 
         if((k/2)>=0){            
-            Debug.Log(k/2);
             sliderZValue[5].text = "+" + (k / 2).ToString("0.0000");    //k/2
         }else{
             sliderZValue[5].text = (k / 2).ToString("0.0000");          //k/2
