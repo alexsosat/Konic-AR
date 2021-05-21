@@ -11,12 +11,10 @@ using TMPro;
  * Versión: 1.0
  */
 
-
-public class modelControlle_Alex : MonoBehaviour
+public class Ar_controller : MonoBehaviour
 {
-
     [Header("Title")]
-    public Text planeText;
+    public Text sectionText;
 
 
     [Header("General UI")]
@@ -25,7 +23,7 @@ public class modelControlle_Alex : MonoBehaviour
     public GameObject[] texts;
     public GameObject[] UI;
 
-    
+
 
     private int state = 0;
 
@@ -49,10 +47,10 @@ public class modelControlle_Alex : MonoBehaviour
 
     void Start()
     {
-        
-       
+
+
         TextMeshPro t = (TextMeshPro)gameObject.GetComponent(typeof(TextMeshPro));
-        
+
         for (int i = 0; i < buttons.Length; i++)
         {
             int closureIndex = i; // Prevents the closure problem
@@ -61,27 +59,37 @@ public class modelControlle_Alex : MonoBehaviour
 
     }
     // Update is called once per frame
-    void Update(){
-        if (state == 0){
+    void Update()
+    {
+        if (state == 0)
+        {
             Circunferencia();
-        }if (state == 1){
+        }
+        if (state == 1)
+        {
             Ellipse();
-        }if (state == 2){
+        }
+        if (state == 2)
+        {
             Parabola();
-        }if (state == 3){
+        }
+        if (state == 3)
+        {
             Hiperbola();
         }
     }
 
 
-    public void TaskOnClick(int buttonIndex){
-        
+    public void TaskOnClick(int buttonIndex)
+    {
+
         foreach (GameObject plane in planes)
         {
             plane.SetActive(false);
         }
 
-        foreach (GameObject util in UI){
+        foreach (GameObject util in UI)
+        {
             util.SetActive(false);
         }
 
@@ -91,7 +99,7 @@ public class modelControlle_Alex : MonoBehaviour
         }
         if (buttonIndex == 0)
         {
-            planeText.text = "CIRCUNFERENCIA";
+            sectionText.text = "CIRCUNFERENCIA";
             state = 0;
             planes[0].SetActive(true);
             UI[0].SetActive(true);
@@ -99,7 +107,7 @@ public class modelControlle_Alex : MonoBehaviour
         }
         else if (buttonIndex == 1)
         {
-            planeText.text = "ELIPSE";
+            sectionText.text = "ELIPSE";
             state = 1;
             planes[1].SetActive(true);
             UI[1].SetActive(true);
@@ -107,7 +115,7 @@ public class modelControlle_Alex : MonoBehaviour
         }
         else if (buttonIndex == 2)
         {
-            planeText.text = "PARÁBOLA";
+            sectionText.text = "PARÁBOLA";
             state = 2;
             planes[2].SetActive(true);
             UI[2].SetActive(true);
@@ -115,13 +123,13 @@ public class modelControlle_Alex : MonoBehaviour
         }
         else if (buttonIndex == 3)
         {
-            planeText.text = "HIPÉRBOLA";
+            sectionText.text = "HIPÉRBOLA";
             state = 3;
             planes[3].SetActive(true);
             UI[3].SetActive(true);
             texts[3].SetActive(true);
         }
-        
+
     }
 
 
@@ -133,18 +141,21 @@ public class modelControlle_Alex : MonoBehaviour
     }
     public void Ellipse()
     {
-        
+
         //(1 − 𝑚²)𝑥² + 2𝑘𝑚𝑥 + 𝑦² − 𝑘² = 0
         double k = ellipseSliders[0].value;
         double m = ellipseSliders[1].value;
-        double km = 2*k*m;
+        double km = 2 * k * m;
 
-       
-        ellipseEquationValues[0].text = (k*k).ToString("0.0000");            // k²
-        ellipseEquationValues[1].text = (1-m*m).ToString("0.0000");          // m²
-        if(km<0){
+
+        ellipseEquationValues[0].text = (k * k).ToString("0.0000");            // k²
+        ellipseEquationValues[1].text = (1 - m * m).ToString("0.0000");          // m²
+        if (km < 0)
+        {
             ellipseEquationValues[2].text = km.ToString("0.0000");          // 2km 
-        }else{
+        }
+        else
+        {
             ellipseEquationValues[2].text = "+" + km.ToString("0.0000");    // 2km 
         }
         double val = Math.Round(ellipseSliders[1].value * 20) / 20;
@@ -154,38 +165,45 @@ public class modelControlle_Alex : MonoBehaviour
 
     }
 
-    public void Parabola (){
+    public void Parabola()
+    {
         //y² = -2k ( x - k/2)
         double k = paraboleSlider.value;
 
-        
 
-        paraboleEquationValues[1].text = (-2*k).ToString("0.0000");               //-2k 
-        if((k/2)>=0){
+
+        paraboleEquationValues[1].text = (-2 * k).ToString("0.0000");               //-2k 
+        if ((k / 2) >= 0)
+        {
             paraboleEquationValues[0].text = "+" + (k / 2).ToString("0.0000");    //k/2
-        }else{
+        }
+        else
+        {
             paraboleEquationValues[0].text = (k / 2).ToString("0.0000");          //k/2
         }
-        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float).5, (float)(k-.5));
+        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float).5, (float)(k - .5));
     }
 
-    public void Hiperbola(){
+    public void Hiperbola()
+    {
         //(1 - m²)x² + 2kmx + y² - k² = 0
         double m = hyperboleSliders[0].value;
         double k = hyperboleSliders[1].value;
-        double km = 2*k*m;
-        
-        hyperboleEquationValues[0].text = (m*m).ToString("0.0000");           // m²
-        if(km>=0){
+        double km = 2 * k * m;
+
+        hyperboleEquationValues[0].text = (m * m).ToString("0.0000");           // m²
+        if (km >= 0)
+        {
             hyperboleEquationValues[1].text = "+" + km.ToString("0.0000");    // 2km 
-        }else{
+        }
+        else
+        {
             hyperboleEquationValues[1].text = km.ToString("0.0000");          // 2km 
         }
-        hyperboleEquationValues[2].text = (k*k).ToString("0.0000");           // k²
+        hyperboleEquationValues[2].text = (k * k).ToString("0.0000");           // k²
 
-        Quaternion rotation = Quaternion.Euler(new Vector3(0,0, (float)m * 180));
+        Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)m * 180));
         planes[state].GetComponent<Transform>().localRotation = rotation;
         planes[state].GetComponent<Transform>().localPosition = new Vector3((float)k, 0, 0);
     }
-
 }
