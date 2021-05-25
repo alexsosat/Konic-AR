@@ -17,7 +17,7 @@ public class Game_sounds : MonoBehaviour
 
     public void CorrectSound() //método para cuando la respuesta del usuario es correcta reproducir el sonido si escogió previamente escuchar sonidos
     {
-        if (Actions.active)
+        if (EffectSoundsToggler.active)
         {
             Fx.PlayOneShot(correct);
         }
@@ -26,7 +26,7 @@ public class Game_sounds : MonoBehaviour
 
     public void IncorrectSound() //método para cuando la respuesta del usuario es incorrecta reproducir el sonido si escogió previamente escuchar sonidos
     {
-        if (Actions.active)
+        if (EffectSoundsToggler.active)
         {
             Fx.PlayOneShot(incorrect);
         }
@@ -34,7 +34,7 @@ public class Game_sounds : MonoBehaviour
 
     public void WinSound() //método para cuando el usuario completó el nivel reproducir el sonido si escogió previamente escuchar sonidos
     {
-        if (Actions.active)
+        if (EffectSoundsToggler.active)
         {
             Fx.PlayOneShot(win);
         }
@@ -42,7 +42,7 @@ public class Game_sounds : MonoBehaviour
 
     public void LooseSound() //método para cuando el usuario perdió el nivel reproducir el sonido si escogió previamente escuchar sonidos
     {
-        if (Actions.active)
+        if (EffectSoundsToggler.active)
         {
             Fx.PlayOneShot(loose);
         }

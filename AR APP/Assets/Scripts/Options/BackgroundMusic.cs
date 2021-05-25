@@ -13,7 +13,7 @@ public class BackgroundMusic : MonoBehaviour
 
     private static BackgroundMusic instance = null;
     GameObject controller;
-    BackgroundToggler bgtoggle;
+    BackgroundMusicToggler bgtoggle;
     public static BackgroundMusic Instance
     {
         get {
@@ -34,7 +34,7 @@ public class BackgroundMusic : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
         controller = GameObject.Find("Buttons");
-        bgtoggle = controller.GetComponent<BackgroundToggler>();
+        bgtoggle = controller.GetComponent<BackgroundMusicToggler>();
     }
 
     private void Update() //Sección la cual silencia la musica

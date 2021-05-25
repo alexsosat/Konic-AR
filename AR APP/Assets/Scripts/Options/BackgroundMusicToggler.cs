@@ -8,7 +8,7 @@ using UnityEngine;
  * Versión: 1.0
  */
 
-public class BackgroundToggler : MonoBehaviour
+public class BackgroundMusicToggler : MonoBehaviour
 {
     public static bool bg = true;
 

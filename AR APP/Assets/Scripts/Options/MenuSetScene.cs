@@ -14,13 +14,13 @@ public class MenuSetScene : MonoBehaviour
     void Awake()
     {
 
-        if (!this.gameObject.GetComponent<Actions>().getActive())
+        if (!this.gameObject.GetComponent<EffectSoundsToggler>().getActive())
         {
             transform.GetChild(1).GetChild(2).gameObject.SetActive(false);
             transform.GetChild(1).GetChild(3).gameObject.SetActive(true);
         }
 
-        if (!GameObject.Find("Buttons").GetComponent<BackgroundToggler>().getToggler())
+        if (!GameObject.Find("Buttons").GetComponent<BackgroundMusicToggler>().getToggler())
         {
             transform.GetChild(1).GetChild(0).gameObject.SetActive(false);
             transform.GetChild(1).GetChild(1).gameObject.SetActive(true);
