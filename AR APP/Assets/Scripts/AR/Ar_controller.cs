@@ -181,7 +181,7 @@ public class Ar_controller : MonoBehaviour
         {
             paraboleEquationValues[0].text = (k / 2).ToString("0.0000") + " / 2 )";          //k/2
         }
-        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float).5, (float)(k - .5));
+        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float)0.7, (float)(k - .5));
     }
 
     public void Hiperbola()

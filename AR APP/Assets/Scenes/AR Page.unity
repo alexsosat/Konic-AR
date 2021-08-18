@@ -627,6 +627,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76724538}
   m_CullTransparentMesh: 0
+--- !u!21 &103206901
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Prueba1Material
+
+    19360'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5736c1b3ebb540c49cb7d92b9ae1c859, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &144758371
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,34 +694,6 @@ RectTransform:
   m_AnchoredPosition: {x: 105, y: -145}
   m_SizeDelta: {x: 149.55624, y: 127.23749}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &157398781
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Prueba1Material
-
-    38572'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5736c1b3ebb540c49cb7d92b9ae1c859, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &210792247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1741652357556701133, guid: fc57a0277c4ac7d4eac1eca244fb2fbc,
@@ -782,8 +782,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1579409340}
   m_HandleRect: {fileID: 1599793441}
   m_Direction: 0
-  m_MinValue: 0.4
-  m_MaxValue: 0.6
+  m_MinValue: 0.4097
+  m_MaxValue: 0.5885
   m_WholeNumbers: 0
   m_Value: 0.4
   m_OnValueChanged:
@@ -1925,7 +1925,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 157398781}
+  - {fileID: 103206901}
   - {fileID: 858881579}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -3505,7 +3505,7 @@ MonoBehaviour:
   m_MinValue: -1
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4927,7 +4927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617961389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.35, z: 0}
+  m_LocalPosition: {x: 0, y: -10.35, z: 1.17}
   m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children:
   - {fileID: 1100822939}
@@ -5435,8 +5435,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1918494271}
   m_HandleRect: {fileID: 1625269872}
   m_Direction: 0
-  m_MinValue: -1
-  m_MaxValue: 1
+  m_MinValue: -0.6072
+  m_MaxValue: 0.6072
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -7115,8 +7115,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 2229833276623903513}
   m_HandleRect: {fileID: 5164235345146228421}
   m_Direction: 0
-  m_MinValue: -0.99
-  m_MaxValue: 0.99
+  m_MinValue: -1
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.1
   m_OnValueChanged:
@@ -7390,7 +7390,7 @@ PrefabInstance:
     - target: {fileID: 7495788081890619359, guid: fc57a0277c4ac7d4eac1eca244fb2fbc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.56
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 7495788081890619359, guid: fc57a0277c4ac7d4eac1eca244fb2fbc,
         type: 3}
@@ -7899,8 +7899,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 5459316816602886619}
   m_HandleRect: {fileID: 5481374121573925255}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -0.5
+  m_MaxValue: 0.9
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
