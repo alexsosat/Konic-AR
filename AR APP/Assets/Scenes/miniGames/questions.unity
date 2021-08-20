@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -681,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -38.304993}
+  m_AnchoredPosition: {x: 0, y: -38.305008}
   m_SizeDelta: {x: 0, y: -76.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265962180
@@ -1130,7 +1130,7 @@ MonoBehaviour:
     - x^2 + y^2 = 3
     - x^2 + y^2 = 9
     - "x^2 + y^2 = \u221A3"
-    reference: {fileID: 21300000, guid: 89165f8c11395c94eb9ae290849462fa, type: 3}
+    reference: {fileID: 21300000, guid: 71067a0f9b3105b4783ee3b87439de2c, type: 3}
   - pregunta: "Dada las siguientes ecuaciones \xBFCu\xE1l es la ecuaci\xF3n de la
       circunferencia?"
     respuesta: 0
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     - x^2 + y^2 = 2
     - x^2 + y^2 = -4
     - "x^2 + y^2 = \u221A2"
-    reference: {fileID: 21300000, guid: d01f958ad1a8a2b4ca3dd4ddf7cc3b8f, type: 3}
+    reference: {fileID: 21300000, guid: 9be00e35f7e193643b7cf6729dbdb25e, type: 3}
   - pregunta: "Calcula el \xE1rea de la circunferencia que se forma con las siguientes
       ecuaciones"
     respuesta: 2
@@ -1151,7 +1151,7 @@ MonoBehaviour:
     - "P = 4\u03C0"
     - "P = 16\u03C0"
     - "P = 8\u03C0"
-    reference: {fileID: 21300000, guid: 18a721f564777264b861b87579d7513d, type: 3}
+    reference: {fileID: 21300000, guid: 0f20d6caf3a6f3b46b984904ccc10f32, type: 3}
   - pregunta: "Calcula el per\xEDmetro de la circunferencia que se forma con las
       siguientes ecuaciones"
     respuesta: 3
@@ -1162,7 +1162,7 @@ MonoBehaviour:
     - "P = 4\u03C0"
     - "P = 16\u03C0"
     - "P = 8\u03C0"
-    reference: {fileID: 21300000, guid: 18a721f564777264b861b87579d7513d, type: 3}
+    reference: {fileID: 21300000, guid: 0f20d6caf3a6f3b46b984904ccc10f32, type: 3}
   - pregunta: "Dada las siguientes ecuaciones \xBFCu\xE1l es el radio de la circunferencia?"
     respuesta: 1
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2   "
@@ -1171,7 +1171,7 @@ MonoBehaviour:
     - r = 3
     - r = 6
     - "r = \u221A3"
-    reference: {fileID: 21300000, guid: 89165f8c11395c94eb9ae290849462fa, type: 3}
+    reference: {fileID: 21300000, guid: 71067a0f9b3105b4783ee3b87439de2c, type: 3}
   - pregunta: "Dada las siguientes ecuaciones \xBFCu\xE1l es el diametro de la circunferencia?"
     respuesta: 2
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2  \\n diametro = 2r"
@@ -1180,7 +1180,7 @@ MonoBehaviour:
     - d = 3
     - d = 6
     - "d = \u221A3"
-    reference: {fileID: 21300000, guid: 89165f8c11395c94eb9ae290849462fa, type: 3}
+    reference: {fileID: 21300000, guid: 71067a0f9b3105b4783ee3b87439de2c, type: 3}
   - pregunta: "Encuentra el radio del siguiente c\xEDrculo con el plano"
     respuesta: 0
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2"
@@ -1189,7 +1189,7 @@ MonoBehaviour:
     - r = 3
     - r = 6
     - "r = \u221A3"
-    reference: {fileID: 21300000, guid: 7a15506588d610541956e6d948d6a0fc, type: 3}
+    reference: {fileID: 21300000, guid: b76c580ea63c0154ebf39dd31a4d13bd, type: 3}
   - pregunta: "Encuentra el \xE1rea del siguiente c\xEDrculo con el plano"
     respuesta: 2
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n \xE1rea del c\xEDrculo
@@ -1199,7 +1199,7 @@ MonoBehaviour:
     - "A = 18\u03C0"
     - "A = 81\u03C0"
     - "A = 3\u03C0"
-    reference: {fileID: 21300000, guid: 7a15506588d610541956e6d948d6a0fc, type: 3}
+    reference: {fileID: 21300000, guid: b76c580ea63c0154ebf39dd31a4d13bd, type: 3}
   - pregunta: "Encuentra el per\xEDmetro del siguiente c\xEDrculo con el plano"
     respuesta: 1
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n per\xEDmetro del
@@ -1209,7 +1209,7 @@ MonoBehaviour:
     - "A = 18\u03C0"
     - "A = 81\u03C0"
     - "A = 3\u03C0"
-    reference: {fileID: 21300000, guid: 7a15506588d610541956e6d948d6a0fc, type: 3}
+    reference: {fileID: 21300000, guid: b76c580ea63c0154ebf39dd31a4d13bd, type: 3}
   - pregunta: "Encuentra el diametro del siguiente c\xEDrculo con el plano"
     respuesta: 3
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n diametro del c\xEDrculo
@@ -1219,7 +1219,7 @@ MonoBehaviour:
     - d = 81
     - d = 3
     - d = 18
-    reference: {fileID: 21300000, guid: 7a15506588d610541956e6d948d6a0fc, type: 3}
+    reference: {fileID: 21300000, guid: b76c580ea63c0154ebf39dd31a4d13bd, type: 3}
   - pregunta: "Encuentra el \xE1rea del siguiente c\xEDrculo con el plano"
     respuesta: 0
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n \xE1rea del c\xEDrculo
@@ -1229,7 +1229,7 @@ MonoBehaviour:
     - "A = 3\u03C0"
     - "A = 18\u03C0"
     - "A = 6\u03C0"
-    reference: {fileID: 21300000, guid: 89165f8c11395c94eb9ae290849462fa, type: 3}
+    reference: {fileID: 21300000, guid: 71067a0f9b3105b4783ee3b87439de2c, type: 3}
   - pregunta: "Encuentra el per\xEDmetro del siguiente c\xEDrculo con el plano"
     respuesta: 3
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n Per\xEDmetro del
@@ -1239,7 +1239,7 @@ MonoBehaviour:
     - "A = 3\u03C0"
     - "A = 18\u03C0"
     - "A = 6\u03C0"
-    reference: {fileID: 21300000, guid: 89165f8c11395c94eb9ae290849462fa, type: 3}
+    reference: {fileID: 21300000, guid: 71067a0f9b3105b4783ee3b87439de2c, type: 3}
   - pregunta: "Encuentra el per\xEDmetro del siguiente c\xEDrculo con el plano"
     respuesta: 1
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n Per\xEDmetro del
@@ -1249,7 +1249,7 @@ MonoBehaviour:
     - "A = 4\u03C0"
     - "A = \u221A2\u03C0"
     - "A = \u03C0"
-    reference: {fileID: 21300000, guid: d01f958ad1a8a2b4ca3dd4ddf7cc3b8f, type: 3}
+    reference: {fileID: 21300000, guid: 9be00e35f7e193643b7cf6729dbdb25e, type: 3}
   - pregunta: "Encuentra el \xE1rea del siguiente c\xEDrculo con el plano"
     respuesta: 1
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n Per\xEDmetro del
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     - "A = 4\u03C0"
     - "A = \u221A2\u03C0"
     - "A = \u03C0"
-    reference: {fileID: 21300000, guid: d01f958ad1a8a2b4ca3dd4ddf7cc3b8f, type: 3}
+    reference: {fileID: 21300000, guid: 9be00e35f7e193643b7cf6729dbdb25e, type: 3}
   - pregunta: "Encuentra el di\xE1metro del siguiente c\xEDrculo con el plano"
     respuesta: 3
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n di\xE1metro del
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     - "d = \u221A2"
     - d = 2
     - d = 4
-    reference: {fileID: 21300000, guid: d01f958ad1a8a2b4ca3dd4ddf7cc3b8f, type: 3}
+    reference: {fileID: 21300000, guid: 9be00e35f7e193643b7cf6729dbdb25e, type: 3}
   - pregunta: "Encuentra el di\xE1metro del siguiente c\xEDrculo con el plano"
     respuesta: 0
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2 \\n di\xE1metro del
@@ -1279,7 +1279,7 @@ MonoBehaviour:
     - d = 4
     - d = 16
     - d = 2
-    reference: {fileID: 21300000, guid: 18a721f564777264b861b87579d7513d, type: 3}
+    reference: {fileID: 21300000, guid: 0f20d6caf3a6f3b46b984904ccc10f32, type: 3}
   - pregunta: "Encuentra el radio del siguiente c\xEDrculo con el plano"
     respuesta: 1
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2"
@@ -1288,7 +1288,7 @@ MonoBehaviour:
     - r = 4
     - r = 16
     - r = 2
-    reference: {fileID: 21300000, guid: 18a721f564777264b861b87579d7513d, type: 3}
+    reference: {fileID: 21300000, guid: 0f20d6caf3a6f3b46b984904ccc10f32, type: 3}
   - pregunta: "Encuentra el radio del siguiente c\xEDrculo con el plano"
     respuesta: 3
     pista: "ecuaci\xF3n de la circunferencia: x^2 + y^2 = z^2"
@@ -1297,7 +1297,7 @@ MonoBehaviour:
     - r = 4
     - "r = \u221A2"
     - r = 2
-    reference: {fileID: 21300000, guid: d01f958ad1a8a2b4ca3dd4ddf7cc3b8f, type: 3}
+    reference: {fileID: 21300000, guid: 9be00e35f7e193643b7cf6729dbdb25e, type: 3}
   - pregunta: "Dada las siguientes ecuaciones \xBFCu\xE1l es la ecuaci\xF3n de la
       circunferencia?"
     respuesta: 1
@@ -1307,7 +1307,7 @@ MonoBehaviour:
     - x^2 + y^2 = 16
     - x^2 + y^2 = 8
     - x^2 + y^2 = 2
-    reference: {fileID: 21300000, guid: 18a721f564777264b861b87579d7513d, type: 3}
+    reference: {fileID: 21300000, guid: 0f20d6caf3a6f3b46b984904ccc10f32, type: 3}
   - pregunta: "Dada las siguientes ecuaciones \xBFCu\xE1l es la ecuaci\xF3n de la
       circunferencia?"
     respuesta: 2
@@ -1317,7 +1317,7 @@ MonoBehaviour:
     - x^2 + y^2 = 18
     - x^2 + y^2 = 81
     - x^2 + y^2 = 3
-    reference: {fileID: 21300000, guid: 7a15506588d610541956e6d948d6a0fc, type: 3}
+    reference: {fileID: 21300000, guid: b76c580ea63c0154ebf39dd31a4d13bd, type: 3}
   Ans:
   - {fileID: 1566774354}
   - {fileID: 1910589200}
@@ -1879,6 +1879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 563.1782
       objectReference: {fileID: 0}
@@ -1894,6 +1899,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -1906,16 +1916,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2196145379929555120, guid: 97f95efb8367ae14f809749ef4b64891,
         type: 3}
@@ -2666,7 +2666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1129768588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3669,7 +3669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -38.304993}
+  m_AnchoredPosition: {x: 0, y: -38.305008}
   m_SizeDelta: {x: 0, y: -76.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500808940
