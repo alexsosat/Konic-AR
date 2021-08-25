@@ -7,19 +7,23 @@ using TMPro;
 public class reflex_gameManager : MonoBehaviour
 {
 
-    [Header("Gameplay manager")]
+    [Header("Gameplay Manager")]
     public FallingCard[] fallingCards;
     public Image currentSprite;
     private FallingCard currentFallingCard;
     private float streak = 0;
     private float streakBonus = 1;
 
-    [Header("UI manager")]
+    [Header("Sound Manager")]
+    public AudioClip correctSound;
+    public AudioClip incorrectSound;
+    private AudioSource audioManager;
+
+    [Header("UI Manager")]
     public TextMeshProUGUI streakBonusText;
     public GameObject slider;
 
-    [Header("Win manager")]
-    private AudioSource audioManager;
+    [Header("Win Manager")]
     public AudioClip winSound;
     public GameObject gameArea;
     public GameObject winArea;
@@ -39,7 +43,7 @@ public class reflex_gameManager : MonoBehaviour
     {
         if (buttonSprite.sprite.name == currentFallingCard.correctSprite.name)
         {
-
+            audioManager.PlayOneShot(correctSound);
             slider.GetComponent<ProgressBar>().Progress(0.02f * streakBonus);
             streak++;
             if (streak % 3 == 0)
@@ -50,6 +54,7 @@ public class reflex_gameManager : MonoBehaviour
         }
         else
         {
+            audioManager.PlayOneShot(incorrectSound);
             slider.GetComponent<ProgressBar>().usedHint(0.02f);
             streak = 0;
             streakBonus = 1;
