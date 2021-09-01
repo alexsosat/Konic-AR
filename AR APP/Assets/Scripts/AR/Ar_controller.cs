@@ -14,7 +14,7 @@ using TMPro;
 public class Ar_controller : MonoBehaviour
 {
     [Header("Title")]
-    public Text sectionText;
+    public TextMeshProUGUI sectionText;
 
 
     [Header("General UI")]
@@ -28,20 +28,20 @@ public class Ar_controller : MonoBehaviour
     private int state = 0;
 
     [Header("Circunference")]
-    public TextMeshPro circleEquationValue;
+    public TextMeshProUGUI circleEquationText;
     public Slider circleSlider;
 
 
     [Header("Ellipse")]
-    public TextMeshPro[] ellipseEquationValues;
+    public TextMeshProUGUI ellipseEquationText;
     public Slider[] ellipseSliders;
 
     [Header("Parabole")]
-    public TextMeshPro[] paraboleEquationValues;
+    public TextMeshProUGUI paraboleEquationText;
     public Slider paraboleSlider;
 
     [Header("Hyperbole")]
-    public TextMeshPro[] hyperboleEquationValues;
+    public TextMeshProUGUI hyperboleEquationText;
     public Slider[] hyperboleSliders;
 
 
@@ -135,29 +135,37 @@ public class Ar_controller : MonoBehaviour
 
     public void Circunferencia()
     {
-        circleEquationValue.text = Math.Pow(circleSlider.value * 5, 2).ToString("0.0");
-        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, circleSlider.value, 0);
+        // x + y = r²
+        float sliderValue = circleSlider.value;
+
+        double r = Math.Pow(sliderValue * 5, 2);
+
+        circleEquationText.text = "x + y = " + r.ToString("0.0");
+
+        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, sliderValue, 0);
 
     }
     public void Ellipse()
     {
+        String formulaTxt = "";
 
         //(1 − 𝑚²)𝑥² + 2𝑘𝑚𝑥 + 𝑦² − 𝑘² = 0
         double k = ellipseSliders[0].value;
         double m = ellipseSliders[1].value;
-        double km = 2 * k * m;
+       
 
-
-        ellipseEquationValues[0].text = "y  - "+ (k * k).ToString("0.0000") + " = 0";      // k²
-        ellipseEquationValues[1].text = (1 - m * m).ToString("0.0000") + " x ";          // m²
-        if (km < 0)
-        {
-            ellipseEquationValues[2].text = km.ToString("0.0000") + " x +";          // 2km 
-        }
+        formulaTxt += (1 - Math.Pow(m, 2)).ToString("0.0000") + " x ";          // (1 - m²)x²
+        if ((2 * k * m) < 0)
+            formulaTxt += "- ";
         else
-        {
-            ellipseEquationValues[2].text = "+" + km.ToString("0.0000") + " x +";    // 2km 
-        }
+            formulaTxt += "+ ";
+        formulaTxt += Math.Abs(2 * k * m).ToString("0.0000") + " x +";           // 2kmx
+        formulaTxt += "y - ";                                                   //y² -
+        formulaTxt += Math.Pow(k, 2).ToString("0.0000") + " = 0";               //k²
+
+        ellipseEquationText.text = formulaTxt;
+
+
         double val = Math.Round(ellipseSliders[1].value * 20) / 20;
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)val * 45));
         planes[state].GetComponent<Transform>().localRotation = rotation;
@@ -167,43 +175,61 @@ public class Ar_controller : MonoBehaviour
 
     public void Parabola()
     {
+        String formulaTxt = "y  = ";
+
         //y² = -2k ( x - k/2)
         double k = paraboleSlider.value;
 
 
-
-        paraboleEquationValues[1].text = "y  = " + (-2 * k).ToString("0.0000") + " ( x " ;               //-2k 
+        formulaTxt += (-2 * k).ToString("0.0000") + " ( x ";         //-2k
         if ((k / 2) >= 0)
-        {
-            paraboleEquationValues[0].text = "+ " + (k / 2).ToString("0.0000") + " / 2 )";    //k/2
-        }
+            formulaTxt += "+ ";
         else
-        {
-            paraboleEquationValues[0].text = (k / 2).ToString("0.0000") + " / 2 )";          //k/2
-        }
+            formulaTxt += "- ";
+        formulaTxt += Math.Abs(k).ToString("0.0000") + " / 2 )";         //k/2
+        paraboleEquationText.text = formulaTxt;
+
+
         planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float)0.7, (float)(k - .5));
     }
 
     public void Hiperbola()
     {
+        String formulaTxt = "";
+
         //(1 - m²)x² + 2kmx + y² - k² = 0
         double m = hyperboleSliders[0].value;
         double k = hyperboleSliders[1].value;
         double km = 2 * k * m;
 
-        hyperboleEquationValues[0].text = "+ "+ (m * m).ToString("0.0000") + " x +";           // m²
-        if (km >= 0)
-        {
-            hyperboleEquationValues[1].text = "y  + " + km.ToString("0.0000") + " = 0";    // 2km 
-        }
+        formulaTxt += (1 - Math.Pow(m, 2)).ToString("0.0000") + " x ";          // (1 - m²)x²
+        if ((2 * k * m) >= 0)
+            formulaTxt += "+ ";
         else
-        {
-            hyperboleEquationValues[1].text = "y  " + km.ToString("0.0000") + " = 0";         // 2km 
-        }
-        hyperboleEquationValues[2].text = (k * k).ToString("0.0000") + " x ";           // k²
+            formulaTxt += "- ";
+        formulaTxt += Math.Abs(2 * k * m).ToString("0.0000") + " x +";           // 2kmx
+        formulaTxt += "y - ";                                                   //y² -
+        formulaTxt += Math.Pow(k, 2).ToString("0.0000") + " = 0";               //k²
+
+        hyperboleEquationText.text = formulaTxt;
+
 
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)m * 180));
         planes[state].GetComponent<Transform>().localRotation = rotation;
         planes[state].GetComponent<Transform>().localPosition = new Vector3((float)k, 0, 0);
+       
+        
+        //hyperboleEquationValues[0].text = "+ "+ (m * m).ToString("0.0000") + " x +";           // m²
+        //if (km >= 0)
+        //{
+        //    hyperboleEquationValues[1].text = "y  + " + km.ToString("0.0000") + " = 0";    // 2km 
+        //}
+        //else
+        //{
+        //    hyperboleEquationValues[1].text = "y  " + km.ToString("0.0000") + " = 0";         // 2km 
+        //}
+        //hyperboleEquationValues[2].text = (k * k).ToString("0.0000") + " x ";           // k²
+
+
     }
 }
