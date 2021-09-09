@@ -29,19 +29,23 @@ public class Ar_controller : MonoBehaviour
 
     [Header("Circunference")]
     public TextMeshProUGUI circleEquationText;
+    public TextMeshProUGUI circleSliderValue;
     public Slider circleSlider;
 
 
     [Header("Ellipse")]
     public TextMeshProUGUI ellipseEquationText;
+    public TextMeshProUGUI[] ellipseSliderValues;
     public Slider[] ellipseSliders;
 
     [Header("Parabole")]
     public TextMeshProUGUI paraboleEquationText;
+    public TextMeshProUGUI paraboleSliderValue;
     public Slider paraboleSlider;
 
     [Header("Hyperbole")]
     public TextMeshProUGUI hyperboleEquationText;
+    public TextMeshProUGUI[] hyperboleSliderValues;
     public Slider[] hyperboleSliders;
 
 
@@ -136,12 +140,12 @@ public class Ar_controller : MonoBehaviour
     public void Circunferencia()
     {
         // x + y = r²
-        float sliderValue = circleSlider.value;
+        float sliderValue = circleSlider.value*5;
 
-        double r = Math.Pow(sliderValue * 5, 2);
+        double r = Math.Pow(sliderValue, 2);
 
         circleEquationText.text = "x + y = " + r.ToString("0.0");
-
+        circleSliderValue.text = sliderValue.ToString("0.0000");
         planes[state].GetComponent<Transform>().localPosition = new Vector3(0, sliderValue, 0);
 
     }
@@ -164,7 +168,8 @@ public class Ar_controller : MonoBehaviour
         formulaTxt += Math.Pow(k, 2).ToString("0.0000") + " = 0";               //k²
 
         ellipseEquationText.text = formulaTxt;
-
+        ellipseSliderValues[0].text = k.ToString("0.0000");
+        ellipseSliderValues[1].text = m.ToString("0.0000");
 
         double val = Math.Round(ellipseSliders[1].value * 20) / 20;
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)val * 45));
@@ -188,7 +193,7 @@ public class Ar_controller : MonoBehaviour
             formulaTxt += "- ";
         formulaTxt += Math.Abs(k).ToString("0.0000") + " / 2 )";         //k/2
         paraboleEquationText.text = formulaTxt;
-
+        paraboleSliderValue.text = k.ToString("0.0000");
 
         planes[state].GetComponent<Transform>().localPosition = new Vector3(0, (float)0.7, (float)(k - .5));
     }
@@ -207,11 +212,13 @@ public class Ar_controller : MonoBehaviour
             formulaTxt += "+ ";
         else
             formulaTxt += "- ";
-        formulaTxt += Math.Abs(2 * k * m).ToString("0.0000") + " x +";           // 2kmx
+        formulaTxt += Math.Abs(km).ToString("0.0000") + " x +";           // 2kmx
         formulaTxt += "y - ";                                                   //y² -
         formulaTxt += Math.Pow(k, 2).ToString("0.0000") + " = 0";               //k²
 
         hyperboleEquationText.text = formulaTxt;
+        hyperboleSliderValues[0].text = k.ToString("0.0000");
+        hyperboleSliderValues[1].text = m.ToString("0.0000");
 
 
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, (float)m * 180));
