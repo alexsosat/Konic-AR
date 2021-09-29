@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/miniGames/reflex_game.unity
     guid: 8caa30327de151640b98f90fca7adfb0
+  - enabled: 1
+    path: Assets/Scenes/Learn Page.unity
+    guid: ad502e374b835654c872482c2890e99f
   m_configObjects: {}

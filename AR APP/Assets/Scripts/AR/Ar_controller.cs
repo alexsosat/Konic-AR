@@ -146,7 +146,7 @@ public class Ar_controller : MonoBehaviour
 
         circleEquationText.text = "x + y = " + r.ToString("0.0");
         circleSliderValue.text = sliderValue.ToString("0.0000");
-        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, sliderValue, 0);
+        planes[state].GetComponent<Transform>().localPosition = new Vector3(0, sliderValue/5, 0);
 
     }
     public void Ellipse()
@@ -191,7 +191,7 @@ public class Ar_controller : MonoBehaviour
             formulaTxt += "+ ";
         else
             formulaTxt += "- ";
-        formulaTxt += Math.Abs(k).ToString("0.0000") + " / 2 )";         //k/2
+        formulaTxt += Math.Abs(k/2).ToString("0.0000") + ")";         //k/2
         paraboleEquationText.text = formulaTxt;
         paraboleSliderValue.text = k.ToString("0.0000");
 
