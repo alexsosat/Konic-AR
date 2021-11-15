@@ -35,13 +35,13 @@ public class reflex_gameManager : MonoBehaviour
     void Start()
     {
         audioManager = gameObject.GetComponent<AudioSource>();
-        setNewSprite();
+        SetNewSprite();
     }
 
 
-    public void checkCorrectOption(Image buttonSprite)
+    public void CheckCorrectOption(int buttonOption)
     {
-        if (buttonSprite.sprite.name == currentFallingCard.correctSprite.name)
+        if (buttonOption == currentFallingCard.correctIndex)
         {
             audioManager.PlayOneShot(correctSound);
             slider.GetComponent<ProgressBar>().Progress(0.02f * streakBonus);
@@ -60,21 +60,22 @@ public class reflex_gameManager : MonoBehaviour
             streakBonus = 1;
             streakBonusText.text = 'X' + streakBonus.ToString();
         }
-        checkWin();
-        setNewSprite();
+        CheckWin();
+        SetNewSprite();
     }
 
-    public void setNewSprite()
+    private void SetNewSprite()
     {
         int n = Random.Range(0, 4);
         currentFallingCard = fallingCards[n];
         currentSprite.sprite = fallingCards[n].modelSprite;
     }
 
-    public void checkWin()
+    private void CheckWin()
     {
         if (slider.GetComponent<Slider>().value >= 1)
         {
+            GetComponent<simpleCountDown>().pause();
             audioManager.PlayOneShot(winSound);
             gameArea.SetActive(false);
             winArea.SetActive(true);

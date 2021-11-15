@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 [System.Serializable]
-
-public class FallingCard
+public class TutorialPage
 {
-    public Sprite modelSprite;
-    public int correctIndex;
+    public GameObject panel;
+    public GameObject highlightedGameObject;
 }
